@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.bingo.multitab.view.viewpager.SViewPager
+        android:id="@+id/tab_main_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#eee" />
+
+    <com.bingo.multitab.view.indicator.FixedIndicatorView
+        android:id="@+id/tab_main_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff" />
+</LinearLayout>
